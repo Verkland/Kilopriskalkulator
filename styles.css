@@ -1,0 +1,80 @@
+body {
+  font-family: "Roboto", Arial, sans-serif; /* Endre skrifttypen */
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height:100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+  padding: 40px;
+  background-image: linear-gradient(135deg, #f6d365 0%, #fda085 100%); /* Legg til en gradientbakgrunn */
+}
+
+.container {
+  text-align: center;
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 100%;
+  width: 400px;
+}
+
+input {
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+  width: 100%;
+  max-width: 300px;
+  font-size: 16px;
+  box-sizing: border-box;
+  border: 1px solid #ccc; /* Endre kantlinjefargen */
+}
+
+.calculator-and-results {
+  display: grid;
+  grid-template-rows: min-content 150px;
+  gap: 20px;
+}
+
+.results-container {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow-y: auto;
+}
+
+.result {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.custom-button {
+  color: #ffff;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+button {
+  background-color: #DDA7EA;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  transition: all 0.3s ease;
+  background-image: linear-gradient(135deg, #8A5D94 0%); /* Legg til en gradientbakgrunn for knappen */
+}
+
+/* Legg til en ny klasse for reklameområdet */
+.ad-space {
+  width: 100%;
+  height: 10vh;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
